@@ -15,4 +15,19 @@
   <h1></h1>
 	<div class="g-recaptcha" data-sitekey="6LfWAN4qAAAAAGZh06ADiwZfAJm8_EgJnkaWQSwe"></div>
 </form>
-218116481564-iibjatfqlupq4vlh4003q4c0q5atl0g1.apps.googleusercontent.com
+<div class="mailru-login-button" data-ui="login_as userpic" data-type="login" style="width: 300px; height: 48px;"></div>
+<script src="https://oauth.mail.ru/sdk/v0.18.0/oauth.js"></script>
+<script>
+	MR.init({
+		clientId: '4b51dd5e51de4f039d84d17e2415fa7a',
+		scopes: [MR.SCOPE_USER_INFO, MR.SCOPE_MAIL_IMAP],
+		onlogin: function (state) {
+			if (state.user) {
+				console.info('MR.login:', state);
+			}
+		},
+		onlogout: function () {
+			console.info('MR.logout');
+		}
+	});
+</script>
