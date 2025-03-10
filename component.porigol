@@ -1,0 +1,11 @@
+import = app.import()
+person = gettext().tostring()
+import.setkey(person)
+import py
+import turtle
+import pygame
+text = gettext().tostring()
+python (_text) = py.commamd(text)
+import print_commands
+print.help = print_commands(command"help")
+print (_text)=  print(text)
