@@ -1,0 +1,8 @@
+js.create(object.name("python"))
+object.python.import(fromurl("https://python.org/libs/download/python.js"))
+object.python.import(fromurl("https://python.org/libs/download/python.html"))
+object.python.import(fromurl("https://python.org/libs/download/python.css"))
+object.python.import(fromurl("https://python.org/libs/download/pygame.py"))
+python.create(object("pygame"))
+object.pygame(newscript)
+newscript.createapp(withcustompythonconcast(""))
