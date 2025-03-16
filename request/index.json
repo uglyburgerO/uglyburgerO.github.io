@@ -1,5 +1,7 @@
 {
   "Title": "Sussesful",
+  "requestCode": "app.getstring(requestCode)",
+  "resultCode": "app.getstring(resultCode)",
   "ImageId": "json/service.gettext().withAndroidAppCode(text(gettext(edittext1).tostring(edittext1)))",
   "Description": "Your best friend is here"
 }
