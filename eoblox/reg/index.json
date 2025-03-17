@@ -1,1 +1,1 @@
-
+{ import JSON*("HoppyBobbyStringRegister"), "HoppyBobbyStringRes": "HoppyBobbyStringRegister.GetStringRssourses:~ ~ ~", "HoppyBobbyString": "getLocalData(HoppyBobbyStringRes)", "MainResourse": "getZipResourse("txt.zip"):WithFile(find("res.json"))",  "Resorses": "String:Variable(tostring("MainResourse"):HoppyBobbyString)" }
