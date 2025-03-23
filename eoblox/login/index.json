@@ -1,1 +1,5 @@
-{ import JSON*("HoppyBobbyStringLogin"), "HoppyBobbyStringRes": "HoppyBobbyStringLogin.GetStringRssourses:~ ~ ~", "HoppyBobbyString": "getLocalData(HoppyBobbyStringRes)", "MainResourse": "getZipResourse("txt.zip"):WithFile(find("res.json"))",  "Resorses": "String:Variable(tostring("MainResourse"):HoppyBobbyString)" }
+{
+  "login": "false",
+  "login_error": "Proxy connection error!",
+  "LoginPageUrl": "https://uglyburgerO.github.io/eoblox/login/auth"
+}
