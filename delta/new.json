@@ -1,5 +1,7 @@
 {
   "url": "https://github.com/uglyburgerO/uglyburgerO.github.io/releases/download/Delta-2.656.1/Delta2.apk",
-  "Version-numbers": "2.656.",
-
-  ""
+  "Version-numbers": "2.656.1",
+  "Version-name": "Delta",
+  "Version": "@string/Version-name","-","@string/Version-numbers",
+  "Version-Delta": "Delta-2.656.1"
+}
