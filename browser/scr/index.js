@@ -20,7 +20,7 @@ if(M()){document.getElementsByTagName("head")[0].appendChild(O(opts_.cselibVersi
 })({
   "cx": "27b28e58dbf964dac",
   "language": "ru",
-  "theme": "V2_DEFAULT",
+  "theme": "MINIMALIST",
   "uiOptions": {
     "resultsUrl": "",
     "enableAutoComplete": true,
@@ -35,9 +35,21 @@ if(M()){document.getElementsByTagName("head")[0].appendChild(O(opts_.cselibVersi
       "label": "Date",
       "key": "date"
     }],
-    "overlayResults": true,
+    "overlayResults": false,
+    "webSearchResultSetSize": 0,
+    "webSearchExtendedRestricts": {
+      "lr": "",
+      "cr": "",
+      "gl": "",
+      "filter": 0,
+      "sort": "",
+      "as_oq": "",
+      "as_sitesearch": ""
+    },
     "queryParameterName": "q",
+    "enableHistory": true,
     "numTopRefinements": -1,
+    "enableRichSnippets": false,
     "hideElementBranding": false,
     "cssThemeVersion": 4,
     "isMobileDevice": true,
@@ -46,7 +58,7 @@ if(M()){document.getElementsByTagName("head")[0].appendChild(O(opts_.cselibVersi
   },
   "protocol": "https",
   "rawCss": ".gsc-control-cse{font-family:arial, roboto, sans-serif}.gsc-control-cse .gsc-table-result{font-family:arial, roboto, sans-serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}",
-  "cse_token": "AB-tC_5A_e5HI5xUVU590IIEd7kY:1743844653824",
+  "cse_token": "AB-tC_55jwpWANmz5xOAznoOc5RK:1743865286689",
   "isHostedPage": false,
   "exp": ["cc", "apo"],
   "cselibVersion": "75c56d121cde450a",
